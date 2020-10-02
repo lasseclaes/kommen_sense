@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+
+
+
+.bg-img-wrapper {
+    background-image: url(1.bg.png);
+    background-position: 100% 25%;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-size: cover;
+}
+
+.bg-img-wrapper_1 {
+    background-image: url(2.bg.png);
+    background-position: 100% 25%;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(54, 54, 54, 0.53);
+}
+
+.logo {
+    max-width: 7%;
+    position: fixed;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
