@@ -15,7 +15,7 @@ body {
 }
 
 .bg-img-wrapper_1 {
-    background-image: url(2.bg.png);
+    background-image: url(mountain_2.png);
     background-position: 100% 25%;
     background-repeat: no-repeat;
     background-clip: padding-box;
@@ -23,7 +23,8 @@ body {
 }
 
 .container {
-    background-color: rgba(54, 54, 54, 0.53);
+/*        background-color: rgba(0, 0, 0, 0.53);*/
+
 }
 
 .logo {
@@ -33,8 +34,23 @@ body {
 
 h1 {
     color: white;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 900;
 }
 
 p {
     color: white;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+.copy {
+    font-size: calc(0.6rem + 1vw);
+}
+
+@media (min-width: 1200px) {
+    .title {
+        font-size: 4rem;
+    }
 }
