@@ -22,8 +22,16 @@ body {
     background-size: cover;
 }
 
+.bg-img-wrapper_2 {
+    background-image: url(mountain_4.png);
+    background-position: 100% 75%;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-size: cover;
+}
+
 .container {
-/*        background-color: rgba(0, 0, 0, 0.53);*/
+    /*        background-color: rgba(0, 0, 0, 0.53);*/
 
 }
 
@@ -36,6 +44,7 @@ h1 {
     color: white;
     font-family: 'Helvetica', sans-serif;
     font-weight: 900;
+
 }
 
 p {
@@ -46,7 +55,11 @@ p {
 }
 
 .copy {
-    font-size: calc(0.6rem + 1vw);
+    font-size: calc(0.6rem + 0.7vw);
+}
+
+.heading {
+    font-size: calc(1rem + 2vw);
 }
 
 @media (min-width: 1200px) {
@@ -54,3 +67,31 @@ p {
         font-size: 4rem;
     }
 }
+
+.btn {
+    padding: 0.5rem;
+    font-size: calc(0.6rem + 0.7vw);
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin: 0 1rem 1rem 0;
+    border-width: 1;
+    border-color: white;
+    border-radius: 0;
+    display: table;
+
+    width: 100%
+}
+
+.btn:nth-child(2) {
+    margin-top: 1rem;
+}
+
+button {
